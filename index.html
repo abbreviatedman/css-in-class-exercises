@@ -1,0 +1,150 @@
+
+<!-- Add attribute to open link in a new tab -->
+<!-- https://www.w3schools.com/tags/ref_byfunc.asp Use this to add tags we have not gone over and make two sections of your own -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Practice</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/ac-logo.jpg" class="nav-logo" alt="AnnieCannons' Logo" />
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
+    </nav>
+    <section class="headers-section">
+      <h1><a href="https://www.github.com/abbreviatedman" target="_blank">This</a> is an H1.</h1>
+      <h2><a href="https://www.github.com/abbreviatedman">This</a> is an H2.</h2>
+      <h3><a href="https://www.github.com/abbreviatedman">This</a> is an H3.</h3>
+      <h4><a href="https://www.google.com">This is an H4.</a></h4>
+      <h5><a href="https://www.google.com">This is an H5.</a></h5>
+      <h6><a href="https://www.google.com">This is an H6.</a></h6>
+    </section>
+    <section class="hero-section">
+      <div class="hero-wrapper">
+        <div class="text-wrapper">
+          <h1>Writing inclusive software for the next generation</h1>
+          <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to break things.</p>
+          <a href="https://www.anniecannons.org"><button>Learn More</button></a>
+        </div>
+        <div class="form-wrapper">
+          <h1>Request a Quote</h1>
+          <form>
+            <input type="text" id="first-name" name="first-name" required placeholder="First Name">
+            <input type="text" id="last-name" name="last-name" required placeholder="Last Name">
+            <input type="text" id="email" name="email" required placeholder="Email">
+            <select id="budget-range" name="budget-range" required>
+              <option value="unselected" disabled required selected>Select Budget Range</option>
+              <option value="personal">Personal Budget</option>
+              <option value="professional">Professional Budget</option>
+              <option value="organizational">Organizational Budget</option>
+            </select>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="about-section">
+      <!-- <h1 class="section-header">About Us</h1> -->
+      <div class="about-wrapper">
+        <div class="about-img-wrapper">
+          <img
+            src="./assets/software-graphic.png"
+            alt="hero image"
+          />
+        </div>
+        <div class="about-text-wrapper">
+          <h1>About Our Products</h1>
+          <!-- add bulleted list, and numbered with top 5 reasons to hire us, etc -->
+          <p>
+            We make the best software around. We are also really fun to work
+            with!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery-section">
+      <div class="gallery-text-wrapper">
+        <h1>Gallery</h1>
+        <p>These are the most beautiful photos in the world, all made possible by our amazing engineers.</p>
+      </div>
+      <div class="images-wrapper">
+        <img src="./assets/gallery1.jpg" alt="Boat parked at a lake." />
+        <img src="./assets/gallery2.jpg" alt="Clouds around mountain peaks." />
+        <img src="./assets/gallery3.jpg" alt="Boats in a harbor." />
+        <img src="./assets/gallery4.jpg" alt="Sunset over a lake." />
+        <img src="./assets/gallery5.jpg" alt="An aerial view of a bright blue harbor." />
+        <img src="./assets/gallery6.jpg" alt="A sandy beach with hills in the background." />
+        <img src="./assets/gallery7.jpg" alt="Mountains." />
+        <img src="./assets/gallery8.jpg" alt="A coast." />
+        <img src="./assets/gallery9.jpg" alt="A harbor with an island.." />
+      </div>
+    </section>
+    <section class="awards-section">
+      <h1 class="section-header">Awards</h1>
+      <p class="awards-section-text">We have won many awards for our software.</p>
+      <div class="flex-wrapper">
+        <div class="left-content-box content-box">
+	  <h1>Click <a href="#" alt="ChatGPT">here</a> to ask ChatGPT about each of these rewards!</h1>
+	  <ul>
+	    <li>Best CSS</li>
+	    <li>Most thorough documentation</li>
+	    <li>Number One Creative Solutions Center</li>
+	    <li>Dedicated to taking our time</li>
+	  </ul>
+        </div>
+        <div class="right-content-box content-box">
+	  <img src="./assets/award.png" />
+        </div>
+      </div>
+    </section>
+    <section class="divs parent-child-section section steps-section">
+      <h1 class="section-header">Our Steps</h1>
+      <div class="steps-wrapper">
+        <div class="steps-card">
+          <h1>1</h1>
+          <p>Give us a call! We will go over everything together and ensure you want to hire us.</p>
+        </div>
+        <div class="steps-card">
+          <h1>2</h1>
+          <p>Meet with our product team to determine your MVP, a product that will thrill your users.</p>
+        </div>
+        <div class="steps-card">
+          <h1>3</h1>
+          <p>Our in-house designers will create something that is both beautiful, functional, and user-friendly.</p>
+        </div>
+        <div class="steps-card">
+          <h1>4</h1>
+          <p>Our team will build the app of your dreams. We will take our time and pay close attention to every detail.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section certification-section">
+      <div class="certification-process-wrapper">
+        <h1 class="section-header">Our Certification Process</h1>
+        <ol>
+          <li>Internal testing</li>
+          <li>Beta testing with a small group</li>
+          <li>Make changes based on feedback</li>
+          <li>Present the software to the world</li>
+      </div>
+    </section>
+    <section class="section footer-section">
+      <div class="buttons-wrapper">
+        <button class="button">Contact</button>
+        <button class="button">Learn</button>
+        <button class="button">Request</button>
+        <button class="button">Donate</button>
+      </div>
+    </section>
+  </body>
+</html>
+
+
