@@ -1,7 +1,7 @@
 # CSS In-Class Assignment Instructions
 
 
-# class vs. tag specificity rule
+### class vs. tag specificity rule
 1. Open your HTML-in-class-project
 2. Open the styles.css file
 3. At the top of the file, write a style rule to turn all h1's blue ![CSS code to turn all h1's blue](/assets/h1-blue.png)
@@ -13,7 +13,8 @@
 
 
 
-# inline/internal/external
-# as a group: dev tools
-# border bonanza - lab time
-### Instructions
+### inline/internal/external
+
+### as a group: dev tools
+
+### border bonanza - lab time
