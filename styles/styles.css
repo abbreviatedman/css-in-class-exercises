@@ -2,6 +2,23 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+.red-text {
+  color: red;
+}
+
+.gallery-section h1 {
+  color: green;
+}
+
+h1 {
+  color: blue;
+}
+
+/* the .red-text rule still takes precedence
+because of a rule called specificity
+*/
+
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
