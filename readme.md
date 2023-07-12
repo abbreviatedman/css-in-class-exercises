@@ -20,7 +20,7 @@
 1. Open your in-class HTML project
 2. Navigate to styles.css 
 3. Add a border to each rule in the CSS file (see below for an example)
-4. Every single rule should have a border in it.
+4. Add borders to at least 20 style rules.
 5. You can choose different styles and have fun with it!
 6. Check out your work in the browser
 
