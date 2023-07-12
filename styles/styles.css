@@ -2,6 +2,14 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+h1 {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
