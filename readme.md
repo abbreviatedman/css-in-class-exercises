@@ -2,7 +2,7 @@
 
 ### Class Vs. Tag Specificity Rule
 
-1. Open your HTML-in-class-project
+1. Open your css-in-class-exercises
 2. Open the styles.css file
 3. At the top of the file, write a style rule to turn all h1's blue ![CSS code to turn all h1's blue](/assets/h1-blue.png)
 4. Look at your website in the browser
@@ -45,7 +45,7 @@ Sometimes your browser's Dev Tools can be a great way to try out different rules
 
 ### Border Bonanza - Lab Time
 
-1. Open your in-class HTML project
+1. Open your css-in-class-exercises project
 2. Navigate to styles.css 
 3. Add borders to at least 20 style rules. See below for an example!
 4. You can choose different styles and have fun with it!
