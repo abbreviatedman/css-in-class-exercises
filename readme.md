@@ -52,3 +52,11 @@ Sometimes your browser's Dev Tools can be a great way to try out different rules
 5. Check out your work in the browser
 
 ![border code example](/assets/border-example.png)
+
+### Styling Text
+
+There are endless ways to style text. We'll learn a few and practice them!
+
+1. Check out [this text styling cheatsheet ](https://medium.com/swlh/css-styling-cheat-sheet-109bd78038e1) to get some ideas.
+2. Let's take a moment and style the text to our CSS In Class Exercises. You can add whatever styles you'd like.
+3. We'll come back and take volunteers to share what they did!
