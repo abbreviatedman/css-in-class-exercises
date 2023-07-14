@@ -1,7 +1,23 @@
 /* FOR CSS MODULE
   Add border style rules that are at least 5 pixels and a color of your choice.
-
 */
+
+.red-text {
+  color: red;
+}
+
+.gallery-section h1 {
+  color: green;
+}
+
+h1 {
+  color: blue;
+}
+
+/* the .red-text rule still takes precedence
+because of a rule called specificity
+*/
+
 
 body {
   margin: 0;
@@ -32,6 +48,7 @@ nav ul li {
   color: whitesmoke;
   font-weight: bolder;
 }
+
 nav img {
   width: 50px;
   margin-left: 2em;
@@ -196,6 +213,7 @@ button {
   text-align: center;
   padding: 10em 5em;
 }
+
 .steps-card {
   width: 150px;
   text-align: center;
@@ -233,6 +251,7 @@ button {
   font-size: 1.2em;
   margin-top: 1em;
 }
+
 .certification-process-wrapper ol {
   font-size: 1.2em;
   margin-top: 2em;
